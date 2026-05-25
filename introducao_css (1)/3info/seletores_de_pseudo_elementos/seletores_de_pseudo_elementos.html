@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Pseudo-elementos</title>
+  <link rel="stylesheet" href="seletores_de_pseudo_elementos.css">
+</head>
+<body>
+
+  <h2 class="titulo">Exemplo de Pseudo-elementos</h2>
+
+  <p class="texto">
+    Este é um exemplo de parágrafo para demonstrar o uso de pseudo-elementos
+    no CSS. A primeira linha e a primeira letra deste texto terão estilos
+    diferentes para destacar seu funcionamento.
+  </p>
+
+  <ul class="lista">
+    <li>Item A</li>
+    <li>Item B</li>
+    <li>Item C</li>
+  </ul>
+
+  <button onclick="document.getElementById('modal').showModal()">
+    Abrir diálogo
+  </button>
+
+  <dialog id="modal">
+    <p>Este é um diálogo usando ::backdrop</p>
+    <button onclick="document.getElementById('modal').close()">
+      Fechar
+    </button>
+  </dialog>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+/* [attribute] - possui o atributo */
+[class] {
+    border: 2px solid blue;
+  }
+  
+  /* [attribute="value"] - valor exato */
+  [type="email"] {
+    background-color: lightyellow;
+  }
+  
+  /* [attribute~="value"] - contém a palavra */
+  [class~="importante"] {
+    color: red;
+    font-weight: bold;
+  }
+  
+  /* [attribute|="value"] - valor exato ou começa com "valor-" */
+  [lang|="pt"] {
+    background-color: #dff110;
+  }
+  
+  /* [attribute^="value"] - começa com */
+  a[href^="https"] {
+    color: green;
+  }
+  
+  /* [attribute$="value"] - termina com */
+  img[src$=".png"] {
+    border: 5px solid orange;
+  }
+  
+  /* [attribute*="value"] - contém */
+  a[href*="google"] {
+    font-weight: bold;
+    text-decoration: underline;
+  }

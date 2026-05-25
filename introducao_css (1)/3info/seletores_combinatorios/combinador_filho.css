@@ -1,0 +1,7 @@
+/* 2. Combinador filho (>)
+* Seleciona apenas os filhos diretos.
+* Somente o <p> que é filho direto da <div> recebe o estilo.
+*/
+div > p {
+    color: green;
+  }    

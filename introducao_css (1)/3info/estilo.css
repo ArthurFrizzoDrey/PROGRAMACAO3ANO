@@ -1,0 +1,72 @@
+
+/*A ordem do código é importante, pois como o próprio nome diz, estilo em "cascata"*/
+
+/*Seletor universal
+* Aplica as propriedades em todos os elementos da página
+*/
+* {
+    background-color: rgb(95, 235, 100);
+}
+
+/*Seletores simples:*/
+/*Utilizando nome do elemento*/
+h1 {
+    text-align: right;
+    color: blue;
+}
+p {
+    text-align: right;
+    color: blueviolet;
+}
+
+/*Utilizando id do elemento
+* O ID é um elemento único dentro de uma página, ou seja não pode se repetir, é utilizado para selecionar
+um elemento específico
+* Para chamarmos um elemento com id específico utilizamos o caractere # seguido pelo id do elemento
+*/
+#teste {
+    font-family: fantasy;
+    font-size: 20px;
+    text-align: left;
+    color: brown;
+}
+
+/*Utilizando classe:
+* Seleciona elementos HTML com um atributo de classe específico
+* Para selecionar eementos com uma classe específica, escreva um ponto (.) seguido do nome da classe
+* Classes podem ser utilizadas em mais de um elemento e um elemento pode ter mais de uma classe
+* Podemos especificar que apenas elementos HTML específicos podem ser afetados por uma classe
+*/
+.centro {
+    text-align: center;
+    
+}
+
+.tamanho {
+    font-size: 20px;
+}
+p.centro {
+    color: red;
+}
+
+h1.centro{
+    background-color: aquamarine;
+}
+
+/*Caso os elementos tenham a mesma estilização, posso agrupá-los separando os seletores por vírgula
+
+h1, h2, p {
+    text-align: center;
+    color: black;
+}
+
+*/
+
+
+
+/*Seletores de pseudo-classe*/
+
+/*Seletores de pseudo-elementos*/
+
+/*Seletores de atributos*/
+

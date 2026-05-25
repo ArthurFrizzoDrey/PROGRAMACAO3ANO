@@ -1,0 +1,8 @@
+/* 1. Combinador descendente (espaço) 
+* Seleciona todos os elementos dentro de outro, em qualquer nível.
+* Todos os <p> que estão dentro de <div> serão azuis, mesmo que estejam em níveis mais profundos.
+*/
+
+div p {
+    color: blue;
+  }

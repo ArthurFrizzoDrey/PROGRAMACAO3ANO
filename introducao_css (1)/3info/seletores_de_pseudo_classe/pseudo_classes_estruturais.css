@@ -1,0 +1,35 @@
+/* :first-child - primeiro filho */
+ul li:first-child {
+    color: green;
+    font-weight: bold;
+  }
+  
+  /* :last-child - último filho */
+  ul li:last-child {
+    color: red;
+    font-weight: bold;
+  }
+  
+  /* :nth-child(n) - seleciona o enésimo filho */
+  ul li:nth-child(3) {
+    background-color: rgb(210, 50, 172);
+  }
+  
+  /* Exemplo mais comum: pares */
+  ul li:nth-child(even) {
+    background-color: #f1e6e6;
+  }
+  
+  /* :first-child aplicado em outro contexto */
+  .caixa p:first-child {
+    border: 2px solid blue;
+  }
+  
+  /* :lang() - idioma específico */
+  p:lang(pt) {
+    color: rgb(255, 0, 0);
+  }
+  
+  p:lang(en) {
+    color: orange;
+  }

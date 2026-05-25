@@ -1,0 +1,8 @@
+/* 3. Próximo combinador de irmãos (+) 
+* Seleciona o primeiro elemento imediatamente após outro.
+* Apenas o primeiro <p> depois do <h1> será vermelho.
+
+*/
+h1 + p {
+    color: rgb(0, 221, 255);
+  }

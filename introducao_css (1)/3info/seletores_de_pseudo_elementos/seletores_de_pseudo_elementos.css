@@ -1,0 +1,44 @@
+/* ===== PSEUDO-ELEMENTOS DE TEXTO ===== */
+
+/* ::first-line - primeira linha */
+.texto::first-line {
+    color: blue;
+    font-weight: bold;
+  }
+  
+  /* ::first-letter - primeira letra */
+  .texto::first-letter {
+    color: red;
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  
+  /* ===== PSEUDO-ELEMENTOS DE CONTEÚDO ===== */
+  
+  /* ::before - conteúdo antes */
+  .titulo::before {
+    content: "👉 ";
+  }
+  
+  /* ::after - conteúdo depois */
+  .titulo::after {
+    content: " ✔";
+  }
+  
+  /* ::marker - marcador da lista */
+  .lista li::marker {
+    color: green;
+    font-size: 1.2em;
+  }
+  
+  /* ::selection - texto selecionado */
+  ::selection {
+    background-color: yellow;
+    color: black;
+  }
+  
+  /* ::backdrop - fundo do dialog */
+  dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+  }

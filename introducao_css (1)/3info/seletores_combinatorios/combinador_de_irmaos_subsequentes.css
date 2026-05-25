@@ -1,0 +1,7 @@
+/* 4. Combinador de irmãos subsequentes (~) 
+* Seleciona todos os irmãos que vêm depois.
+* Todos os <p> que aparecem depois do <h1> (no mesmo nível) serão roxos.
+*/
+h1 ~ p {
+    color: purple;
+  }

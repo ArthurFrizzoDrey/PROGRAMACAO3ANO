@@ -1,0 +1,37 @@
+/* :link - link não visitado */
+a:link {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  /* :visited - link visitado */
+  a:visited {
+    color: purple;
+  }
+  
+  /* :hover - quando passa o mouse */
+  a:hover {
+    color: red;
+    text-decoration: underline;
+  }
+  
+  /* :active - quando está sendo clicado */
+  a:active {
+    color: orange;
+  }
+  
+  /* :focus - quando um elemento recebe foco */
+  input:focus {
+    border: 2px solid green;
+    background-color: #eaffea;
+    outline: none;
+  }
+  
+  /* Interação com botão */
+  button:hover {
+    background-color: lightblue;
+  }
+  
+  button:active {
+    background-color: lightcoral;
+  }
