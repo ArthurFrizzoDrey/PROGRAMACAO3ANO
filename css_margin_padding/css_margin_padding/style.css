@@ -1,0 +1,116 @@
+* {
+    background-color: rgb(9, 5, 219);
+    color: rgb(16, 66, 3);
+    font-size: 30px;
+}
+/*Propriedades individuais*/
+#margem1 {
+    background-color: aquamarine;
+
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+/*Propriedade Abreviada - 4 valores*/
+#margem2 {
+    background-color: aquamarine;
+    margin: 60px 30px 60px 30px;
+}
+
+/*Propriedade Abreviada - 3 valores*/
+#margem3 {
+    background-color: aquamarine;
+    margin: 100px 10px 50px;
+}
+/*Propriedade Abreviada - 2 valores*/
+#margem4 {
+    background-color: aquamarine;
+    margin: 60px 30px;
+}
+/*Propriedade Abreviada - 1 valor*/
+#margem5 {
+    background-color: aquamarine;
+    margin: 60px;
+}
+/*Margem - auto*/
+#margem6 {
+    background-color: aquamarine;
+    width: 300px;
+    margin: auto;
+}
+/*Margem - inherit*/
+div {
+    background-color: aquamarine;
+    margin-left: 150px;
+}
+#margem7 {
+    background-color: bisque;
+    margin-left: inherit;
+}
+
+/*Preenchimento - Propriedades individuais*/
+#preenchimento1 {
+    background-color: cadetblue;
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+/*Preenchimento - Propriedade abreviada - 4 valores*/
+#preenchimento2 {
+    background-color: cadetblue;
+    padding: 30px 10px 40px 20px;
+
+}
+
+/*Preenchimento - Propriedade abreviada - 3 valores*/
+#preenchimento3 {
+    background-color: cadetblue;
+    padding: 30px 20px 40px;
+
+}
+
+/*Preenchimento - Propriedade abreviada - 2 valores*/
+#preenchimento4 {
+    background-color: cadetblue;
+    padding: 50px 50px;
+
+}
+
+/*Preenchimento - Propriedade abreviada - 1 valor*/
+#preenchimento5 {
+    background-color: cadetblue;
+    padding: 70px;
+
+}
+
+/*Preenchimento e Largura do Elemento*/
+h1 {
+    background-color: cadetblue;
+    width: 300px;
+    padding: 20px;
+}
+
+/*Utilizando Box-sizing*/
+h2 {
+    background-color: cadetblue;
+    width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h3 {
+    background-color: cadetblue;
+    width: 300px;
+    padding: 20px;
+    box-sizing: content-box;
+}
+
+h4 {
+    background-color: cadetblue;
+    width: 300px;
+    height: 200px;
+}
