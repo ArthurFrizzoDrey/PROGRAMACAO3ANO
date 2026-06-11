@@ -1,1 +1,1 @@
-Estudos realizados no componente de programação no terceiro ano!
+Repositório referente a estudos realizados no componente de programação no terceiro ano!
